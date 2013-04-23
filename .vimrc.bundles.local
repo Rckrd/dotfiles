@@ -1,2 +1,2 @@
-Bundle 'vim-slime'
 Bundle 'vimoutliner/vimoutliner'
+Bundle 'tslime.vim'
