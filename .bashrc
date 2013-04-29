@@ -115,3 +115,5 @@ fi
 setxkbmap -option ctrl:nocaps
 
 [ -z "$TMUX" ] && export TERM=xterm-256color
+
+tmux
