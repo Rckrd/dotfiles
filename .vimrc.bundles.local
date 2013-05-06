@@ -1,2 +1,4 @@
 Bundle 'vimoutliner/vimoutliner'
-Bundle 'tslime.vim'
+Bundle 'jpalardy/vim-slime'
+Bundle 'vimwiki'
+Bundle 'Syntastic'

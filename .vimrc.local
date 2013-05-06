@@ -1,2 +1,6 @@
 let g:slime_target = "tmux"
+<<<<<<< HEAD
 let g:Powerline_symbols = "fancy"
+=======
+set foldmethod = "marker"
+>>>>>>> 00ad0655bd162b5141980767c80f5116bdeb76ac
