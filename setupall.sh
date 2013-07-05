@@ -27,10 +27,10 @@ sudo apt-get install -y rlwrap
 sudo apt-get install -y vim tmux zsh
 
 # git pull and install dotfiles as well
-cd $HOME
-if [ -d ./dotfiles/ ]; then
-    mv dotfiles dotfiles.old
-fi
+# cd $HOME
+# if [ -d ./dotfiles/ ]; then
+#     mv dotfiles dotfiles.old
+# fi
 # if [ -d .emacs.d/ ]; then
 #     mv .emacs.d .emacs.d~
 # fi
@@ -39,7 +39,7 @@ fi
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | s
 
 # vim config
-sh <(curl https://j.mp/spf13-vim3 -L)
+curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
 
 # create symlinks
 ln -sb dotfiles/.vimrcc.local .
