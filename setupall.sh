@@ -26,6 +26,9 @@ sudo apt-get install -y rlwrap
 # sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
 sudo apt-get install -y vim tmux zsh
 
+# XClip to enable better integration with tMUX and system clipboard
+sudo apt-get install -y xclip
+
 # git pull and install dotfiles as well
 # cd $HOME
 # if [ -d ./dotfiles/ ]; then
