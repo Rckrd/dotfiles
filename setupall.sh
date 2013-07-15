@@ -7,9 +7,16 @@ sudo apt-get install -y git-core
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
 # Load nvm and install latest production node
-source $HOME/.nvm/nvm.sh
-nvm install v0.10.12
-nvm use v0.10.12
+# source $HOME/.nvm/nvm.sh
+# nvm install v0.10.12
+# nvm use v0.10.12
+
+# installing Node JS according to node js site
+sudo apt-get update
+sudo apt-get install python-software-properties python g++ make
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs
 
 # Install jshint to allow checking of JS code within emacs
 # http://jshint.com/
