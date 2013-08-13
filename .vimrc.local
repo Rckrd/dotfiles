@@ -1,3 +1,11 @@
 let g:slime_target = "tmux"
+let g:ScreenImpl = "Tmux"
 set foldmethod=marker
-cmap w!! !sudo tee > /dev/null %
+cmap w!! ! sudo tee > /dev/null %
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
+""let vimrplugin_screenplugin = 0
+let maplocalleader = 'ö'
+autocmd BufNewFile,BufRead *.jade set filetype=ja

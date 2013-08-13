@@ -1,0 +1,16 @@
+
+
+# needed for RODBC
+sudo apt-get install unixodbc-dev
+
+curl http://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
+
+# oh my zsh
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+
+
+
+
+sudo apt-get install libpq-dev
+install.packages("RPostgreSQL")
+sudo apt-get install moreutils

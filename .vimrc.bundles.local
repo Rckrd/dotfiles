@@ -1,5 +1,17 @@
 Bundle 'vimoutliner/vimoutliner'
+Bundle 'VimOutliner'
 Bundle 'jpalardy/vim-slime'
 Bundle 'vimwiki'
 Bundle 'Syntastic'
 Bundle 'vimlatex'
+Bundle 'LaTeX-Suite-aka-Vim-LaTeX'
+Bundle 'vim-coffee-script'
+Bundle 'Vim-R-plugin'
+Bundle 'Screen-vim---gnu-screentmux'
+Bundle 'digitaltoad/vim-jade'
+"remember to manually reload filetype
+Bundle 'wavded/vim-stylus'
+
+let g:spf13_bundle_groups=['general', 'programming', "Javascript", "Python", "HTML"]
+
+
